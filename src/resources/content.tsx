@@ -2,9 +2,9 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Christopher",
+  firstName: "Chris",
   lastName: "Lissants",
-  name: `Christopher Lissants`,
+  name: `Chris Lissants`,
   role: "IT Solution Engineer",
   avatar: "/images/avatar.jpg",
   email: "christopher.lissants@gmail.com",
@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Delivering Brilliant ideas to Your Fingertips</>,
+  headline: <>Securing your IT Assets and Avoid Costly Mistakes</>,
   featured: {
     display: false,
     title: (
@@ -65,9 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Salut! Chris here, a recent Applied Computing graduate from the University of Arizona
-      <br/> and an Information System graduate from Sampoerna University.
-      <br/> I aim to engineer a solution revolving IT Security and Application Development as a solution for your business needs.
+      I'm a Jr. Cybersecurity Analyst, specialising in Defensive Security. My knowledge spans across Networking, Cyber Risk & Governance, and IT Development.
     </>
   ),
 };
@@ -104,7 +102,7 @@ const about: About = {
     experiences: [
       {
         company: "University of Arizona (Web Programming Course)",
-        timeframe: "Jan - May2025",
+        timeframe: "Jan - May 2025",
         role: "Full-Stack Web Developer",
         achievements: [
           <>
@@ -118,11 +116,26 @@ const about: About = {
       {
         company: "Sampoerna University (Senior Capstone Project)",
         timeframe: "Jan - May 2025",
-        role: "Lead Designer",
+        role: "Mobile Application Developer (Android Full-Stack)",
         achievements: [
           <>
             Designed and produced mobile application capable of recommending karaoke songs according to user's singing performance
             and preferences using React Native and Appwrite.
+          </>,
+        ],
+        images: [],
+      },
+       {
+        company: "DCConnect Global Ltd.",
+        timeframe: "Jul - Sep 2024",
+        role: "Research & Development Intern",
+        achievements: [
+          <>
+            Designed and developed a web application to obtain the selling price of products and services with complex
+            parameters using Microsoft Power Apps and Microsoft Sharepoint.
+          </>,
+          <>
+            Automated the fetching of Building Geolocation information using Python and Google Places API.
           </>,
         ],
         images: [],
